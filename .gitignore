@@ -1,0 +1,19 @@
+# Specific folders to ignore
+.ollama/
+backup/
+bin/
+lib/
+
+# Specific log files to ignore
+survey_generation.log
+survey_generation01.log
+
+# Track file to ignore
+track.md
+
+# Additional common ignore patterns
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
