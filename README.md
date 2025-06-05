@@ -79,17 +79,16 @@ This research uncovered several critical insights into cultural bias in LLMs:
 
 The repository is organized as follows:
 
-$ tree
 .
-├── 01_pre-processing.ipynb        # Data loading, cleaning, and initial exploration
-├── 02_imputation.ipynb            # Primary imputation pipeline
-├── 02_imputationalternate.ipynb   # Alternate imputation strategies/checks
-├── 03_aggregation.ipynb           # Aggregation of imputed data by demographic profiles
-├── 04_EFA.ipynb                   # Exploratory Factor Analysis model selection
-├── 05_DimenReduc.ipynb            # Detailed EFA, diagnostics, and dimension interpretation
-├── 06_EFA_Comparison.ipynb        # Comparison of LLM outputs with ground truth EFA
-├── 07_visualizations.ipynb        # Generation of charts and visualizations
-├── data/                          # Input datasets and metadata
+├── 01_pre-processing.ipynb         # Data loading, cleaning, and initial exploration
+├── 02_imputation.ipynb             # Primary imputation pipeline
+├── 02_imputationalternate.ipynb    # Alternate imputation strategies/checks
+├── 03_aggregation.ipynb            # Aggregation of imputed data by demographic profiles
+├── 04_EFA.ipynb                    # Exploratory Factor Analysis model selection
+├── 05_DimenReduc.ipynb             # Detailed EFA, diagnostics, and dimension interpretation
+├── 06_EFA_Comparison.ipynb         # Comparison of LLM outputs with ground truth EFA
+├── 07_visualizations.ipynb         # Generation of charts and visualizations
+├── data/                           # Input datasets and metadata
 │   ├── gemma3-12b_output_inferred.csv
 │   ├── llama2-13b_output_inferred.csv
 │   ├── new_median_wvs_wave7_aggregated_by_demographics.csv
@@ -100,13 +99,13 @@ $ tree
 │   ├── wvs_wave7_imputed.csv
 │   ├── wvs_wave7_imputed_alternate.csv
 │   └── wvs_wave7_preprocessed.csv
-├── output/                        # Generated results from analyses
+├── output/                         # Generated results from analyses
 │   ├── communalities_varimax_5factors.csv
-│   ├── efa_comparison_all_models/ # Detailed model comparison outputs
-│   │   ├── T1_EFA_results/        # Factor loadings and scores for ground truth (T1)
-│   │   │   └── ...                # (contains T1 factor analysis outputs)
-│   │   ├── visualizations/        # Visualizations from EFA comparisons
-│   │   │   └── ...                # (contains plots and charts)
+│   ├── efa_comparison_all_models/  # Detailed model comparison outputs
+│   │   ├── T1_EFA_results/         # Factor loadings and scores for ground truth (T1)
+│   │   │   └── ...                 # (contains T1 factor analysis outputs)
+│   │   ├── visualizations/         # Visualizations from EFA comparisons
+│   │   │   └── ...                 # (contains plots and charts)
 │   │   ├── cohens_d_T1_vs_gemma3-12b_projected.csv
 │   │   ├── cohens_d_T1_vs_llama2-13b_projected.csv
 │   │   ├── cohens_d_T1_vs_phi4-14b_projected.csv
@@ -129,7 +128,7 @@ $ tree
 │   ├── factor_scores_varimax_5factors.csv
 │   ├── kmo_per_variable.csv
 │   └── pearson_correlation_matrix.csv
-└── README.md                      # This file
+└── README.md                       # This file
 
 
 ### Notebook Pipeline
