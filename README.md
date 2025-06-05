@@ -79,6 +79,7 @@ This research uncovered several critical insights into cultural bias in LLMs:
 
 The repository is organized as follows:
 
+```text
 .
 ├── 01_pre-processing.ipynb         # Data loading, cleaning, and initial exploration
 ├── 02_imputation.ipynb             # Primary imputation pipeline
@@ -129,7 +130,6 @@ The repository is organized as follows:
 │   ├── kmo_per_variable.csv
 │   └── pearson_correlation_matrix.csv
 └── README.md                       # This file
-
 
 ### Notebook Pipeline
 
