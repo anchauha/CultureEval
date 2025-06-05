@@ -130,6 +130,7 @@ The repository is organized as follows:
 │   ├── kmo_per_variable.csv
 │   └── pearson_correlation_matrix.csv
 └── README.md                       # This file
+```
 
 ### Notebook Pipeline
 
