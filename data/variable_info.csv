@@ -1,0 +1,228 @@
+Variable_Code,Type,Question_Text,Response_Options_Full
+Q106,Ordinal,Incomes should be made more equal vs There should be greater incentives for individual effort,Code 1: Incomes should be made more equal | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: There should be greater incentives for individual effort
+Q107,Ordinal,Private vs state ownership of business,Code 1: Private ownership of business should be increased | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Government ownership of business should be increased
+Q108,Ordinal,Government's vs individual's responsibility,Code 1: The government should take more responsibility to ensure that everyone is provided for | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: People should take more responsibility to provide for themselves
+Q109,Ordinal,Competition good or harmful,Code 1: Competition is good | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Competition is harmful
+Q10P,Binary,Important child qualities: feeling of responsibility (+),Code 0: Not mentioned | Code 1: Important
+Q110,Ordinal,Success: hard work vs luck,"Code 1: In the long run, hard work usually brings a better life | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Hard work doesn't generally bring success - it's more a matter of luck and connections"
+Q111,Ordinal,Protecting environment vs. Economic growth,Code 1: Protecting environment | Code 2: Economy growth and creating jobs | Code 3: Other answer
+Q112,Ordinal,Perceptions of corruption in the country,Code 1: 1 There is no corruption in my country | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: 10 There is abundant corruption in my country
+Q113,Ordinal,Involved in corruption: State authorities,Code 1: None of them | Code 2: Few of them | Code 3: Most of them | Code 4: All of them
+Q114,Ordinal,Involved in corruption: Business executives,Code 1: None of them | Code 2: Few of them | Code 3: Most of them | Code 4: All of them
+Q115,Ordinal,Involved in corruption: Local authorities,Code 1: None of them | Code 2: Few of them | Code 3: Most of them | Code 4: All of them
+Q116,Ordinal,Involved in corruption: Civil service providers,Code 1: None of them | Code 2: Few of them | Code 3: Most of them | Code 4: All of them
+Q117,Ordinal,Involved in corruption: Journalists and media,Code 1: None of them | Code 2: Few of them | Code 3: Most of them | Code 4: All of them
+Q118,Ordinal,"Frequency ordinary people pay a bribe, give a gift or do a favor to local officials/service providers in order to get services",Code 1: Never | Code 2: Rarely | Code 3: Frequently | Code 4: Always
+Q119P,Ordinal,"Degree of agreement: On the whole, women are less corrupt than men (+)",Code 0: Hard to say | Code 1: Strongly disagree | Code 2: Disagree | Code 3: Agree | Code 4: Strongly agree
+Q11P,Binary,Important child qualities: imagination (+),Code 0: Not mentioned | Code 1: Important
+Q120,Ordinal,Risk to be held accountable for giving or receiving a bribe,Code 1: No risk at all | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Very high risk
+Q121,Ordinal,Impact of immigrants on the development of the country,"Code 1: Rather bad | Code 2: Quite bad | Code 3: Neither good, nor bad | Code 4: Quite good | Code 5: Very good"
+Q122,Ordinal,Immigration in your country: Fills useful jobs in the workforce,Code 0: Disagree | Code 1: Hard to say | Code 2: Agree
+Q123,Ordinal,Immigration in your country: Strengthens cultural diversity,Code 0: Disagree | Code 1: Hard to say | Code 2: Agree
+Q124,Ordinal,Immigration in your country: Increases the crime rate,Code 0: Disagree | Code 1: Hard to say | Code 2: Agree
+Q125,Ordinal,Immigration in your country: Gives asylum to political refugees,Code 0: Disagree | Code 1: Hard to say | Code 2: Agree
+Q126,Ordinal,Immigration in your country: Increases the risks of terrorism,Code 0: Disagree | Code 1: Hard to say | Code 2: Agree
+Q127,Ordinal,Immigration in your country: Helps poor people establish new lives,Code 0: Disagree | Code 1: Hard to say | Code 2: Agree
+Q128,Ordinal,Immigration in your country: Increases unemployment,Code 0: Disagree | Code 1: Hard to say | Code 2: Agree
+Q129,Ordinal,Immigration in your country: Leads to social conflict,Code 0: Disagree | Code 1: Hard to say | Code 2: Agree
+Q12P,Binary,Important child qualities: tolerance and respect for other people (+),Code 0: Not mentioned | Code 1: Important
+Q130P,Ordinal,People from other countries coming here to work - Which of the following the government should do (+),Code 1: Prohibit people coming here from other countries | Code 2: Place strict limits on the number of foreigners who can come here | Code 3: Let people come as long as there are jobs available | Code 4: Let anyone come who wants to
+Q131P,Ordinal,Secure in neighborhood (+),Code 1: Not at all secure | Code 2: Not very secure | Code 3: Quite secure | Code 4: Very Secure
+Q132P,Ordinal,Frequency in your neighborhood: Robberies (+),Code 1: Not at all frequently | Code 2: Not frequently | Code 3: Quite frequently | Code 4: Very frequently
+Q133P,Ordinal,Frequency in your neighborhood: Alcohol consumed in the streets (+),Code 1: Not at all frequently | Code 2: Not frequently | Code 3: Quite frequently | Code 4: Very frequently
+Q134P,Ordinal,Frequency in your neighborhood: Police or military interfere with people’s private life (+),Code 1: Not at all frequently | Code 2: Not frequently | Code 3: Quite frequently | Code 4: Very frequently
+Q135P,Ordinal,Frequency in your neighborhood: Racist behavior (+),Code 1: Not at all frequently | Code 2: Not frequently | Code 3: Quite frequently | Code 4: Very frequently
+Q136P,Ordinal,Frequency in your neighborhood: Drug sale in streets (+),Code 1: Not at all frequently | Code 2: Not frequently | Code 3: Quite frequently | Code 4: Very frequently
+Q137P,Ordinal,How frequently do the following things occur in your neighborhood: Street violence and fights (+),Code 1: Not at all frequently | Code 2: Not frequently | Code 3: Quite frequently | Code 4: Very frequently
+Q138P,Ordinal,How frequently do the following things occur in your neighborhood: Sexual harassment (+),Code 1: Not at all frequently | Code 2: Not frequently | Code 3: Quite frequently | Code 4: Very frequently
+Q13P,Binary,Important child qualities: thrift saving money and things (+),Code 0: Not mentioned | Code 1: Important
+Q142P,Ordinal,Worries: Losing my job or not finding a job (+),Code 1: Not at all | Code 2: Not much | Code 3: A good deal | Code 4: Very much
+Q143P,Ordinal,Worries: Not being able to give one's children a good education (+),Code 1: Not at all | Code 2: Not much | Code 3: A good deal | Code 4: Very much
+Q146P,Ordinal,Worries: A war involving my country (+),Code 1: Not at all | Code 2: Not much | Code 3: A good deal | Code 4: Very much
+Q147P,Ordinal,Worries: A terrorist attack (+),Code 1: Not at all | Code 2: Not much | Code 3: A good deal | Code 4: Very much
+Q148P,Ordinal,Worries: A civil war (+),Code 1: Not at all | Code 2: Not much | Code 3: A good deal | Code 4: Very much
+Q149,Binary,Freedom and Equality - Which more important,Code 1: Freedom | Code 2: Equality
+Q14P,Binary,Important child qualities: determination perseverance (+),Code 0: Not mentioned | Code 1: Important
+Q150,Binary,Freedom and security - Which more important,Code 1: Freedom | Code 2: Security
+Q151P,Binary,Willingness to fight for country (+),Code 0: No | Code 1: Yes
+Q152,Ordinal,Aims of country: first choice,Code 1: A high level of economic growth | Code 2: Making sure this country has strong defence forces | Code 3: Seeing that people have more say about how  are done at their jobs and in their communities | Code 4: Trying to make our cities and countryside more beautiful
+Q153,Ordinal,Aims of country: second choice,Code 1: A high level of economic growth | Code 2: Making sure this country has strong defence forces | Code 3: Seeing that people have more say about how  are done at their jobs and in their communities | Code 4: Trying to make our cities and countryside more beautiful
+Q154,Ordinal,Aims of respondent: first choice,Code 1: Maintaining order in the nation | Code 2: Giving people more say in important government decisions | Code 3: Fighting rising prices | Code 4: Protecting freedom of speech
+Q155,Ordinal,Aims of respondent: second choice,Code 1: Maintaining order in the nation | Code 2: Giving people more say in important government decisions | Code 3: Fighting rising prices | Code 4: Protecting freedom of speech
+Q156,Ordinal,Most important: first choice,Code 1: A stable economy | Code 2: Progress toward a less impersonal and more humane society | Code 3: Progress toward a society in which Ideas count more than money | Code 4: The fight against crime
+Q157,Ordinal,Most important: second choice,Code 1: A stable economy | Code 2: Progress toward a less impersonal and more humane  society | Code 3: Progress toward a society in which Ideas count more than money | Code 4: The fight against crime
+Q158,Ordinal,"Science and technology are making our lives healthier, easier, and more comfortable",Code 1: Completely disagree | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Completely agree
+Q159,Ordinal,"Because of science and technology, there will be more opportunities for the next generation",Code 1: Completely disagree | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Completely agree
+Q15P,Binary,Important child qualities: religious faith (+),Code 0: Not mentioned | Code 1: Important
+Q160,Ordinal,We depend too much on science and not enough on faith,Code 1: Completely disagree | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Completely agree
+Q161,Ordinal,One of the bad effects of science is that it breaks down people’s ideas of right and wrong,Code 1: Completely disagree | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Completely agree
+Q162,Ordinal,It is not important for me to know about science in my daily life,Code 1: Completely disagree | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Completely agree
+Q163,Ordinal,"The world is better off, or worse off, because of science and technology",Code 1: A lot worse off | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: A lot better off
+Q164,Ordinal,Importance of God,Code 1: Not at all important | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Very important
+Q165P,Binary,Believe in: God (+),Code 0: No | Code 1: Yes
+Q166P,Binary,Believe in: life after death (+),Code 0: No | Code 1: Yes
+Q167P,Binary,Believe in: hell (+),Code 0: No | Code 1: Yes
+Q168P,Binary,Believe in: heaven (+),Code 0: No | Code 1: Yes
+Q169P,Ordinal,"Whenever science and religion conflict,  religion is always right (+)",Code 1: Strongly disagree | Code 2: Disagree | Code 3: Agree | Code 4: Strongly agree
+Q16P,Binary,Important child qualities: unselfishness (+),Code 0: Not mentioned | Code 1: Important
+Q170P,Ordinal,The only acceptable religion  is my religion (+),Code 1: Strongly disagree | Code 2: Disagree | Code 3: Agree | Code 4: Strongly agree
+Q171P,Ordinal,How often do you attend religious services (+),"Code 1: Never, practically never | Code 2: Less often | Code 3: Once a year | Code 4: Only on special holy days | Code 5: Once a month | Code 6: Once a week | Code 7: More than once a week"
+Q172P,Ordinal,How often to you pray (+),"Code 1: Never, practically never | Code 2: Less often | Code 3: Once a year | Code 4: Only on special holy days | Code 5: Only when attending religious services | Code 6: Several times each week | Code 7: Once a day | Code 8: Several times a day"
+Q173P,Ordinal,Religious person (+),Code 1: An atheist | Code 2: Not a religious person | Code 3: A religious person
+Q176P,Ordinal,Degree of agreement: Nowadays one often has trouble deciding which moral rules are the right ones to follow (+),Code 1: Completely disagree | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Completely agree
+Q177,Ordinal,Justifiable: Claiming government benefits to which you are not entitled,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q178,Ordinal,Justifiable: Avoiding a fare on public transport,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q179,Ordinal,Justifiable: Stealing property,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q17P,Binary,Important child qualities: obedience (+),Code 0: Not mentioned | Code 1: Important
+Q180,Ordinal,Justifiable: Cheating on taxes,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q181,Ordinal,Justifiable: Someone accepting a bribe in the course of their duties,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q182,Ordinal,Justifiable: Homosexuality,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q183,Ordinal,Justifiable: Prostitution,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q184,Ordinal,Justifiable: Abortion,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q185,Ordinal,Justifiable: Divorce,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q186,Ordinal,Justifiable: Sex before marriage,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q187,Ordinal,Justifiable: Suicide,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q188,Ordinal,Justifiable: Euthanasia,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q189,Ordinal,Justifiable: For a man to beat his wife,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q18P,Binary,Neighbors: Drug addicts (+),Code 0: Not mentioned | Code 1: Important
+Q190,Ordinal,Justifiable: Parents beating children,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q191,Ordinal,Justifiable: Violence against other people,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q192,Ordinal,"Justifiable: Terrorism as a political, ideological or religious mean",Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q193,Ordinal,Justifiable: Having casual sex,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q194,Ordinal,Justifiable: Political violence,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q195,Ordinal,Justifiable: Death penalty,Code 1: Never justifiable | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Always justifiable
+Q196P,Ordinal,Government has the right: Keep people under video surveillance in public areas (+),Code 1: Definitely should not have the right | Code 2: Probably should not have the right | Code 3: Probably should have the right | Code 4: Definitely should have the right
+Q197P,Ordinal,Government has the right: Monitor all e-mails and any other information exchanged on the Internet (+),Code 1: Definitely should not have the right | Code 2: Probably should not have the right | Code 3: Probably should have the right | Code 4: Definitely should have the right
+Q198P,Ordinal,Government has the right: Collect information about anyone living in [COUNTRY] without their knowledge (+),Code 1: Definitely should not have the right | Code 2: Probably should not have the right | Code 3: Probably should have the right | Code 4: Definitely should have the right
+Q199P,Ordinal,Interest in politics (+),Code 1: Not at all interested | Code 2: Not very interested | Code 3: Somewhat interested | Code 4: Very interested
+Q19P,Binary,Neighbors: People of a different race (+),Code 0: Not mentioned | Code 1: Important
+Q1P,Ordinal,Important in life: Family (+),Code 1: Not at all important | Code 2: Not very important | Code 3: Rather important | Code 4: Very important
+Q200P,Ordinal,How often discusses political matters with friends (+),Code 1: Never | Code 2: Occasionally | Code 3: Frequently
+Q201P,Ordinal,Information source: Daily newspaper (B) (+),Code 1: Never | Code 2: Less than monthly | Code 3: Monthly | Code 4: Weekly | Code 5: Daily
+Q202P,Ordinal,Information source: TV news (B) (+),Code 1: Never | Code 2: Less than monthly | Code 3: Monthly | Code 4: Weekly | Code 5: Daily
+Q203P,Ordinal,Information source: Radio news (B) (+),Code 1: Never | Code 2: Less than monthly | Code 3: Monthly | Code 4: Weekly | Code 5: Daily
+Q204P,Ordinal,Information source: Mobile phone (B) (+),Code 1: Never | Code 2: Less than monthly | Code 3: Monthly | Code 4: Weekly | Code 5: Daily
+Q205P,Ordinal,Information source: Email (B) (+),Code 1: Never | Code 2: Less than monthly | Code 3: Monthly | Code 4: Weekly | Code 5: Daily
+Q206P,Ordinal,Information source: Internet (B) (+),Code 1: Never | Code 2: Less than monthly | Code 3: Monthly | Code 4: Weekly | Code 5: Daily
+Q207P,Ordinal,"Information source: Social media (Facebook, Twitter, etc.) (+)",Code 1: Never | Code 2: Less than monthly | Code 3: Monthly | Code 4: Weekly | Code 5: Daily
+Q208P,Ordinal,Information source: Talk with friends or colleagues (B) (+),Code 1: Never | Code 2: Less than monthly | Code 3: Monthly | Code 4: Weekly | Code 5: Daily
+Q209P,Ordinal,Political action: Signing a petition (+),Code 1: Would never do | Code 2: Might do | Code 3: Have done
+Q20P,Binary,Neighbors: People who have AIDS (+),Code 0: Not mentioned | Code 1: Important
+Q210P,Ordinal,Political action: joining in boycotts (+),Code 1: Would never do | Code 2: Might do | Code 3: Have done
+Q211P,Ordinal,Political action: attending lawful/peaceful demonstrations (+),Code 1: Would never do | Code 2: Might do | Code 3: Have done
+Q212P,Ordinal,Political action: joining unofficial strikes (+),Code 1: Would never do | Code 2: Might do | Code 3: Have done
+Q213P,Ordinal,Social activism: Donating to a group or campaign (+),Code 1: Would never do | Code 2: Might do | Code 3: Have done
+Q214P,Ordinal,Social activism: Contacting a government official (+),Code 1: Would never do | Code 2: Might do | Code 3: Have done
+Q215P,Ordinal,Social activism: Encouraging others to take action about political issues (+),Code 1: Would never do | Code 2: Might do | Code 3: Have done
+Q216P,Ordinal,Social activism: Encouraging others to vote (+),Code 1: Would never do | Code 2: Might do | Code 3: Have done
+Q217P,Ordinal,Political actions using Internet: Searching information about politics and political events (+),Code 1: Would never do | Code 2: Might do | Code 3: Have done
+Q218P,Ordinal,Political actions using Internet: Signing an electronic petition (+),Code 1: Would never do | Code 2: Might do | Code 3: Have done
+Q219P,Ordinal,Political actions using Internet: Encouraging other people to take any form of political action (+),Code 1: Would never do | Code 2: Might do | Code 3: Have done
+Q21P,Binary,Neighbors: Immigrants/foreign workers (+),Code 0: Not mentioned | Code 1: Important
+Q220P,Ordinal,"Political actions using Internet: Organizing political activities, events, protests (+)",Code 1: Would never do | Code 2: Might do | Code 3: Have done
+Q221P,Ordinal,Vote in elections: local level (+),Code 1: Not allowed to vote | Code 2: Never | Code 3: Usually | Code 4: Always
+Q222P,Ordinal,Vote in elections: National level (+),Code 1: Not allowed to vote | Code 2: Never | Code 3: Usually | Code 4: Always
+Q224P,Ordinal,How often in country's elections: Votes are counted fairly (+),Code 1: Not at all often | Code 2: Not often | Code 3: Fairly often | Code 4: Very often
+Q225P,Ordinal,How often in country's elections: Opposition candidates are prevented from running (+),Code 1: Not at all often | Code 2: Not often | Code 3: Fairly often | Code 4: Very often
+Q226P,Ordinal,How often in country's elections: TV news favors the governing party (+),Code 1: Not at all often | Code 2: Not often | Code 3: Fairly often | Code 4: Very often
+Q227P,Ordinal,How often in country's elections: Voters are bribed (+),Code 1: Not at all often | Code 2: Not often | Code 3: Fairly often | Code 4: Very often
+Q228P,Ordinal,How often in country's elections: Journalists provide fair coverage of elections (+),Code 1: Not at all often | Code 2: Not often | Code 3: Fairly often | Code 4: Very often
+Q229P,Ordinal,How often in country's elections: Election officials are fair (+),Code 1: Not at all often | Code 2: Not often | Code 3: Fairly often | Code 4: Very often
+Q22P,Binary,Neighbors: Homosexuals (+),Code 0: Not mentioned | Code 1: Important
+Q230P,Ordinal,How often in country's elections: Rich people buy elections (+),Code 1: Not at all often | Code 2: Not often | Code 3: Fairly often | Code 4: Very often
+Q231P,Ordinal,How often in country's elections: Voters are threatened with  violence at the polls (+),Code 1: Not at all often | Code 2: Not often | Code 3: Fairly often | Code 4: Very often
+Q232P,Ordinal,How often in country's elections: Voters are offered a genuine choice in the elections (+),Code 1: Not at all often | Code 2: Not often | Code 3: Fairly often | Code 4: Very often
+Q233P,Ordinal,How often in country's elections: Women have equal opportunities to run the office (+),Code 1: Not at all often | Code 2: Not often | Code 3: Fairly often | Code 4: Very often
+Q234P,Ordinal,Some people think that having honest elections makes a lot of difference in their lives;  other people think that it doesn’t matter much (+),Code 1: Not at all important | Code 2: Not very important | Code 3: Rather important | Code 4: Very important
+Q235P,Ordinal,Political system: Having a strong leader who does not have to bother with parliament and elections,Code 1: Very bad | Code 2: Fairly bad | Code 3: Fairly good | Code 4: Very good
+Q236P,Ordinal,Political system: Having experts make decisions (+),Code 1: Very bad | Code 2: Fairly bad | Code 3: Fairly good | Code 4: Very good
+Q237P,Ordinal,Political system: Having the army rule (+),Code 1: Very bad | Code 2: Fairly bad | Code 3: Fairly good | Code 4: Very good
+Q238P,Ordinal,Political system: Having a democratic political system (+),Code 1: Very bad | Code 2: Fairly bad | Code 3: Fairly good | Code 4: Very good
+Q239P,Ordinal,Political system: Having a system governed by religious law in which there are no political parties or elections (+),Code 1: Very bad | Code 2: Fairly bad | Code 3: Fairly good | Code 4: Very good
+Q23P,Binary,Neighbors: People of a different religion (+),Code 0: Not mentioned | Code 1: Important
+Q241,Ordinal,Democracy: Governments tax the rich and subsidize the poor,Code 0: It is against democracy (spontaneous) | Code 1: Not an essential characteristic of democracy | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: An essential characteristic of democracy
+Q242,Ordinal,Democracy: Religious authorities interpret the laws,Code 0: It is against democracy (spontaneous) | Code 1: Not an essential characteristic of democracy | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: An essential characteristic of democracy
+Q243,Ordinal,Democracy: People choose their leaders in free elections,Code 0: It is against democracy (spontaneous) | Code 1: Not an essential characteristic of democracy | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: An essential characteristic of democracy
+Q244,Ordinal,Democracy: People receive state aid for unemployment,Code 0: It is against democracy (spontaneous) | Code 1: Not an essential characteristic of democracy | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: An essential characteristic of democracy
+Q245,Ordinal,Democracy: The army takes over when government is incompetent,Code 0: It is against democracy (spontaneous) | Code 1: Not an essential characteristic of democracy | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: An essential characteristic of democracy
+Q246,Ordinal,Democracy: Civil rights protect people’s liberty against oppression,Code 0: It is against democracy (spontaneous) | Code 1: Not an essential characteristic of democracy | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: An essential characteristic of democracy
+Q247,Ordinal,Democracy: The state makes people's incomes equal,Code 0: It is against democracy (spontaneous) | Code 1: Not an essential characteristic of democracy | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: An essential characteristic of democracy
+Q248,Ordinal,Democracy: People obey their rulers,Code 0: It is against democracy (spontaneous) | Code 1: Not an essential characteristic of democracy | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: An essential characteristic of democracy
+Q249,Ordinal,Democracy: Women have the same rights as men,Code 0: It is against democracy (spontaneous) | Code 1: Not an essential characteristic of democracy | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: An essential characteristic of democracy
+Q24P,Binary,Neighbors: Heavy drinkers (+),Code 0: Not mentioned | Code 1: Important
+Q250,Ordinal,Importance of democracy,Code 1: Not at all important | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Absolutely important
+Q251,Ordinal,How democratically is this country being governed today,Code 1: Not at all democratic | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Completely democratic
+Q252,Ordinal,Satisfaction with the political system performance,Code 1: Not satisfied at all | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Completely satisfied
+Q253P,Ordinal,Respect for individual human rights nowadays (+),Code 1: No respect at all | Code 2: Not much respect | Code 3: Fairly much  respect | Code 4: A great deal of respect for individual human rights
+Q254P,Ordinal,How proud of nationality (+),Code 1: Not at all proud | Code 2: Not very proud | Code 3: Quite proud | Code 4: Very proud | Code 5: I am not [nationality]
+Q255P,Ordinal,"How close you feel: Your [village, town or city] (+)",Code 1: Not close at all | Code 2: Not very close | Code 3: Close | Code 4: Very close
+Q256P,Ordinal,I see myself as member of my local community (+),Code 1: Not close at all | Code 2: Not very close | Code 3: Close | Code 4: Very close
+Q257P,Ordinal,I see myself as citizen of the [country] nation (+),Code 1: Not close at all | Code 2: Not very close | Code 3: Close | Code 4: Very close
+Q258P,Ordinal,"How close you feel: Continent; e.g. Europe, Asia etc.] (+)",Code 1: Not close at all | Code 2: Not very close | Code 3: Close | Code 4: Very close
+Q259P,Ordinal,How close you feel: World (+),Code 1: Not close at all | Code 2: Not very close | Code 3: Close | Code 4: Very close
+Q25P,Binary,Neighbors: Unmarried couples living together (+),Code 0: Not mentioned | Code 1: Important
+Q26P,Binary,Neighbors: People who speak a different language (+),Code 0: Not mentioned | Code 1: Important
+Q27P,Ordinal,One of main goals in life has been to make my parents proud (+),Code 1: Strongly disagree | Code 2: Disagree | Code 3: Agree | Code 4: Agree strongly
+Q28P,Ordinal,Pre-school child suffers with working mother (+),Code 1: Strongly disagree | Code 2: Disagree | Code 3: Agree | Code 4: Agree strongly
+Q29P,Ordinal,Men make better political leaders than women do (+),Code 1: Strongly disagree | Code 2: Disagree | Code 3: Agree | Code 4: Agree strongly
+Q2P,Ordinal,Important in life: Friends (+),Code 1: Not at all important | Code 2: Not very important | Code 3: Rather important | Code 4: Very important
+Q30P,Ordinal,University is more important for a boy than for a girl (+),Code 1: Strongly disagree | Code 2: Disagree | Code 3: Agree | Code 4: Agree strongly
+Q31P,Ordinal,Men make better business executives than women do (+),Code 1: Strongly disagree | Code 2: Disagree | Code 3: Agree | Code 4: Agree strongly
+Q32P,Ordinal,Being a housewife just as fulfilling (+),Code 1: Strongly disagree | Code 2: Disagree | Code 3: Agree | Code 4: Agree strongly
+Q33P,Ordinal,Jobs scarce: Men should have more right to a job than women (+),Code 1: Disagree strongly | Code 2: Disagree | Code 3: Neither agree nor disagree | Code 4: Agree | Code 5: Agree strongly
+Q34P,Ordinal,Jobs scarce: Employers should give priority to (nation) people than immigrants (+),Code 1: Disagree strongly | Code 2: Disagree | Code 3: Neither agree nor disagree | Code 4: Agree | Code 5: Agree strongly
+Q35P,Ordinal,Problem if women have more income than husband (+),Code 1: Disagree strongly | Code 2: Disagree | Code 3: Neither agree nor disagree | Code 4: Agree | Code 5: Agree strongly
+Q36P,Ordinal,Homosexual couples are as good parents as other couples (+),Code 1: Disagree strongly | Code 2: Disagree | Code 3: Neither agree nor disagree | Code 4: Agree | Code 5: Agree strongly
+Q37P,Ordinal,Duty towards society to have children (+),Code 1: Disagree strongly | Code 2: Disagree | Code 3: Neither agree nor disagree | Code 4: Agree | Code 5: Agree strongly
+Q38P,Ordinal,It is child's duty to take care of ill parent (+),Code 1: Disagree strongly | Code 2: Disagree | Code 3: Neither agree nor disagree | Code 4: Agree | Code 5: Agree strongly
+Q39P,Ordinal,People who don't work turn lazy (+),Code 1: Disagree strongly | Code 2: Disagree | Code 3: Neither agree nor disagree | Code 4: Agree | Code 5: Agree strongly
+Q3P,Ordinal,Important in life: Leisure time (+),Code 1: Not at all important | Code 2: Not very important | Code 3: Rather important | Code 4: Very important
+Q40P,Ordinal,Work is a duty towards society (+),Code 1: Disagree strongly | Code 2: Disagree | Code 3: Neither agree nor disagree | Code 4: Agree | Code 5: Agree strongly
+Q41P,Ordinal,Work should come first even if it means less spare time (+),Code 1: Disagree strongly | Code 2: Disagree | Code 3: Neither agree nor disagree | Code 4: Agree | Code 5: Agree strongly
+Q42,Ordinal,Basic kinds of attitudes concerning society,Code 1: The entire way our society is organized must be radically changed by revolutionary action | Code 2: Our society must be gradually improved by reforms | Code 3: Our present society must be valiantly defended against all subversive forces
+Q43P,Ordinal,Future changes: Less importance placed on work (+),Code 1: Bad | Code 2: Don’t mind | Code 3: Good
+Q44P,Ordinal,Future changes: More emphasis on technology (+),Code 1: Bad | Code 2: Don’t mind | Code 3: Good
+Q45P,Ordinal,Future changes: Greater respect for authority (+),Code 1: Bad | Code 2: Don’t mind | Code 3: Good
+Q46P,Ordinal,Feeling of happiness (+),Code 1: Not at all happy | Code 2: Not very happy | Code 3: Quite happy | Code 4: Very happy
+Q47P,Ordinal,State of health (subjective) (+),Code 1: Very poor | Code 2: Poor | Code 3: Fair | Code 4: Good | Code 5: Very good
+Q48,Ordinal,How much freedom of choice and control,Code 1: None at all | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: A great deal
+Q49,Ordinal,Satisfaction with your life,Code 1: Completely dissatisfied | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Completely satisfied
+Q4P,Ordinal,Important in life: Politics (+),Code 1: Not at all important | Code 2: Not very important | Code 3: Rather important | Code 4: Very important
+Q50,Ordinal,Satisfaction with financial situation of household,Code 1: Dissatisfied | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Satisfied
+Q51P,Ordinal,Frequency you/family (last 12 month): Gone without enough food to eat (+),Code 1: Never | Code 2: Rarely | Code 3: Sometimes | Code 4: Often
+Q52P,Ordinal,Frequency you/family (last 12 month): Felt unsafe from crime in your own home (+),Code 1: Never | Code 2: Rarely | Code 3: Sometimes | Code 4: Often
+Q53P,Ordinal,Frequency you/family (last 12 month): Gone without needed medicine or treatment that you needed (+),Code 1: Never | Code 2: Rarely | Code 3: Sometimes | Code 4: Often
+Q54P,Ordinal,Frequency you/family (last 12 month): Gone without a cash income (+),Code 1: Never | Code 2: Rarely | Code 3: Sometimes | Code 4: Often
+Q55P,Ordinal,"In the last 12 month, how often have you or your family: Gone without a safe shelter over your head (+)",Code 1: Never | Code 2: Rarely | Code 3: Sometimes | Code 4: Often
+Q56P,Ordinal,Standard of living comparing with your parents (+),Code 1: Or about the same | Code 2: Worse off | Code 3: Better off
+Q57P,Binary,Most people can be trusted,Code 1: Need to be very careful | Code 2: Most people can be trusted
+Q58P,Ordinal,Trust: Your family (+),Code 1: Do not trust at all | Code 2: Do not trust very much | Code 3: Trust somewhat | Code 4: Trust completely
+Q59P,Ordinal,Trust: Your neighborhood (B) (+),Code 1: Do not trust at all | Code 2: Do not trust very much | Code 3: Trust somewhat | Code 4: Trust completely
+Q5P,Ordinal,Important in life: Work (+),Code 1: Not at all important | Code 2: Not very important | Code 3: Rather important | Code 4: Very important
+Q60P,Ordinal,Trust: People you know personally (+),Code 1: Do not trust at all | Code 2: Do not trust very much | Code 3: Trust somewhat | Code 4: Trust completely
+Q61P,Ordinal,Trust: People you meet for the first time (+),Code 1: Do not trust at all | Code 2: Do not trust very much | Code 3: Trust somewhat | Code 4: Trust completely
+Q62P,Ordinal,Trust: People of another religion (+),Code 1: Do not trust at all | Code 2: Do not trust very much | Code 3: Trust somewhat | Code 4: Trust completely
+Q63P,Ordinal,Trust: People of another nationality (+),Code 1: Do not trust at all | Code 2: Do not trust very much | Code 3: Trust somewhat | Code 4: Trust completely
+Q64P,Ordinal,Confidence: Churches (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q65P,Ordinal,Confidence: Armed Forces (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q66P,Ordinal,Confidence: The Press (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q67P,Ordinal,Confidence: Television (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q68P,Ordinal,Confidence: Labor Unions (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q69P,Ordinal,Confidence: The Police (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q6P,Ordinal,Important in life: Religion (+),Code 1: Not at all important | Code 2: Not very important | Code 3: Rather important | Code 4: Very important
+Q70P,Ordinal,Confidence: Justice System/Courts (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q71P,Ordinal,Confidence: The Government (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q72P,Ordinal,Confidence: The Political Parties (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q73P,Ordinal,Confidence: Parliament (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q74P,Ordinal,Confidence: The Civil Services (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q75P,Ordinal,Confidence: Universities (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q76P,Ordinal,Confidence: Elections (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q77P,Ordinal,Confidence: Major Companies (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q78P,Ordinal,Confidence: Banks (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q79P,Ordinal,Confidence: The Environmental Protection Movement (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q7P,Binary,Important child qualities: good manners (+),Code 0: Not mentioned | Code 1: Important
+Q80P,Ordinal,Confidence: The Women's Movement (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q81P,Ordinal,Confidence: Charitable or humanitarian organizations (+),Code 1: None at all | Code 2: Not very much | Code 3: Quite a lot | Code 4: A great deal
+Q8P,Binary,Important child qualities: independence (+),Code 0: Not mentioned | Code 1: Important
+Q90,Ordinal,International organizations: being effective vs being democratic,Code 1: Being effective | Code 2: 2 | Code 3: 3 | Code 4: 4 | Code 5: 5 | Code 6: 6 | Code 7: 7 | Code 8: 8 | Code 9: 9 | Code 10: Being democratic
+Q9P,Binary,Important child qualities: hard work (+),Code 0: Not mentioned | Code 1: Important
