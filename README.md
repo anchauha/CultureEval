@@ -78,6 +78,8 @@ This research uncovered several critical insights into cultural bias in LLMs:
 ## Repository Structure
 
 The repository is organized as follows:
+
+$ tree
 .
 ├── 01_pre-processing.ipynb        # Data loading, cleaning, and initial exploration
 ├── 02_imputation.ipynb            # Primary imputation pipeline
@@ -100,8 +102,29 @@ The repository is organized as follows:
 │   └── wvs_wave7_preprocessed.csv
 ├── output/                        # Generated results from analyses
 │   ├── communalities_varimax_5factors.csv
-│   ├── efa_comparison_all_models/ # Directory with detailed model comparison outputs
-│   │   └── T1_EFA_results/        # Subfolder with factor loadings and scores for ground truth
+│   ├── efa_comparison_all_models/ # Detailed model comparison outputs
+│   │   ├── T1_EFA_results/        # Factor loadings and scores for ground truth (T1)
+│   │   │   └── ...                # (contains T1 factor analysis outputs)
+│   │   ├── visualizations/        # Visualizations from EFA comparisons
+│   │   │   └── ...                # (contains plots and charts)
+│   │   ├── cohens_d_T1_vs_gemma3-12b_projected.csv
+│   │   ├── cohens_d_T1_vs_llama2-13b_projected.csv
+│   │   ├── cohens_d_T1_vs_phi4-14b_projected.csv
+│   │   ├── country_mean_factor_change_gemma3-12b.csv
+│   │   ├── country_mean_factor_change_llama2-13b.csv
+│   │   ├── country_mean_factor_change_phi4-14b.csv
+│   │   ├── diff_scores_T1_vs_gemma3-12b_projected.csv
+│   │   ├── diff_scores_T1_vs_llama2-13b_projected.csv
+│   │   ├── diff_scores_T1_vs_phi4-14b_projected.csv
+│   │   ├── region_mean_factor_change_gemma3-12b.csv
+│   │   ├── region_mean_factor_change_llama2-13b.csv
+│   │   ├── region_mean_factor_change_phi4-14b.csv
+│   │   ├── scores_gemma3-12b_projected_on_T1.csv
+│   │   ├── scores_llama2-13b_projected_on_T1.csv
+│   │   ├── scores_phi4-14b_projected_on_T1.csv
+│   │   ├── ttest_T1_vs_gemma3-12b_projected.csv
+│   │   ├── ttest_T1_vs_llama2-13b_projected.csv
+│   │   └── ttest_T1_vs_phi4-14b_projected.csv
 │   ├── factor_loadings_varimax_5factors.csv
 │   ├── factor_scores_varimax_5factors.csv
 │   ├── kmo_per_variable.csv
@@ -141,9 +164,19 @@ The Jupyter notebooks are designed to be run sequentially, forming a complete da
 
 This directory contains the results of the EFA and comparative analyses:
 
-* `communalities_varimax_5factors.csv`: Communalities for variables from the EFA.
-* `factor_loadings_varimax_5factors.csv`: Factor loadings for the 5-factor solution.
-* `factor_scores_varimax_5factors.csv`: Factor scores for demographic profiles.
-* `kmo_per_variable.csv`: KMO measure per variable.
-* `pearson_correlation_matrix.csv`: Pearson correlation matrix of the variables.
-* `efa_comparison_all_models/`: Contains detailed CSV outputs, nad visualizations from various EFA model comparisons and results from comparing LLM models with ground truth, including factor loadings and scores for the ground truth data.
+* **Main EFA Results (from `05_DimenReduc.ipynb` on T1 data):**
+    * `communalities_varimax_5factors.csv`: Communalities for variables from the EFA.
+    * `factor_loadings_varimax_5factors.csv`: Factor loadings for the 5-factor solution.
+    * `factor_scores_varimax_5factors.csv`: Factor scores for demographic profiles on the T1 data.
+    * `kmo_per_variable.csv`: KMO measure per variable for the T1 data.
+    * `pearson_correlation_matrix.csv`: Pearson correlation matrix of the variables in T1 data.
+* **EFA Comparison and LLM Evaluation Results (from `06_EFA_Comparison.ipynb` stored in `output/efa_comparison_all_models/`):**
+    * `T1_EFA_results/`: Contains detailed factor analysis outputs (loadings, scores) specifically for the ground truth (T1) dataset, used as a baseline.
+    * `visualizations/`: Stores plots and charts generated during the comparison of LLM outputs against the ground truth.
+    * `cohens_d_T1_vs_<model_name>_projected.csv`: Cohen's d effect sizes comparing T1 factor scores with LLM-projected scores for each model.
+    * `country_mean_factor_change_<model_name>.csv`: Mean factor score differences at the country level for each model.
+    * `diff_scores_T1_vs_<model_name>_projected.csv`: Raw difference scores between T1 and LLM-projected factor scores.
+    * `region_mean_factor_change_<model_name>.csv`: Mean factor score differences aggregated by region (e.g., Western vs. Non-Western) for each model.
+    * `scores_<model_name>_projected_on_T1.csv`: Factor scores for each LLM's data when projected onto the T1 factor structure.
+    * `ttest_T1_vs_<model_name>_projected.csv`: Results of paired t-tests comparing T1 factor scores with LLM-projected scores.
+
