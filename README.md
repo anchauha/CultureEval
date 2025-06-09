@@ -90,16 +90,12 @@ The repository is organized as follows:
 ├── 06_EFA_Comparison.ipynb         # Comparison of LLM outputs with ground truth EFA
 ├── 07_visualizations.ipynb         # Generation of charts and visualizations
 ├── data/                           # Input datasets and metadata
-│   ├── gemma3-12b_output_inferred.csv
-│   ├── llama2-13b_output_inferred.csv
-│   ├── new_median_wvs_wave7_aggregated_by_demographics.csv
-│   ├── new_mode_wvs_wave7_aggregated_by_demographics.csv
-│   ├── phi4-14b_output_inferred.csv
-│   ├── selected_vars.csv
-│   ├── variable_info.csv
-│   ├── wvs_wave7_imputed.csv
-│   ├── wvs_wave7_imputed_alternate.csv
-│   └── wvs_wave7_preprocessed.csv
+│   ├── gemma3-12b_output_inferred.csv # Inferred output from gemma3-12b
+│   ├── llama2-13b_output_inferred.csv # Inferred output from gemma3-12b
+│   ├── phi4-14b_output_inferred.csv # Inferred output from gemma3-12b
+│   ├── variable_info.csv # Variables info metadata file
+│   ├── wvs_wave7_imputed.csv # Imputed data
+│   └── ...
 ├── output/                         # Generated results from analyses
 │   ├── communalities_varimax_5factors.csv
 │   ├── efa_comparison_all_models/  # Detailed model comparison outputs
@@ -107,24 +103,7 @@ The repository is organized as follows:
 │   │   │   └── ...                 # (contains T1 factor analysis outputs)
 │   │   ├── visualizations/         # Visualizations from EFA comparisons
 │   │   │   └── ...                 # (contains plots and charts)
-│   │   ├── cohens_d_T1_vs_gemma3-12b_projected.csv
-│   │   ├── cohens_d_T1_vs_llama2-13b_projected.csv
-│   │   ├── cohens_d_T1_vs_phi4-14b_projected.csv
-│   │   ├── country_mean_factor_change_gemma3-12b.csv
-│   │   ├── country_mean_factor_change_llama2-13b.csv
-│   │   ├── country_mean_factor_change_phi4-14b.csv
-│   │   ├── diff_scores_T1_vs_gemma3-12b_projected.csv
-│   │   ├── diff_scores_T1_vs_llama2-13b_projected.csv
-│   │   ├── diff_scores_T1_vs_phi4-14b_projected.csv
-│   │   ├── region_mean_factor_change_gemma3-12b.csv
-│   │   ├── region_mean_factor_change_llama2-13b.csv
-│   │   ├── region_mean_factor_change_phi4-14b.csv
-│   │   ├── scores_gemma3-12b_projected_on_T1.csv
-│   │   ├── scores_llama2-13b_projected_on_T1.csv
-│   │   ├── scores_phi4-14b_projected_on_T1.csv
-│   │   ├── ttest_T1_vs_gemma3-12b_projected.csv
-│   │   ├── ttest_T1_vs_llama2-13b_projected.csv
-│   │   └── ttest_T1_vs_phi4-14b_projected.csv
+│   │   ├── ...
 │   ├── factor_loadings_varimax_5factors.csv
 │   ├── factor_scores_varimax_5factors.csv
 │   ├── kmo_per_variable.csv
