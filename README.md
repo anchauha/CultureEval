@@ -3,7 +3,7 @@
 ---
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/anchauha/CultureEval)
-![License](https://img.shields.io/github/license/anchauha/CultureEval)
+![License](https://img.shields.io/github/license/anchauha/CultureEval) 
 ![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)
 
 ## 🚀 Overview
