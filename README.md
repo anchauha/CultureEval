@@ -18,7 +18,7 @@ Our research reveals significant and varied cultural biases across leading LLMs 
 * **Cross-Model Bias Quantification:** Detailed, dimension-specific cultural bias evaluation across multiple LLMs.
 * **Actionable Insights:** Identifies specific patterns of bias (e.g., secularizing bias in Non-Western profiles, Western-leaning tendencies) to inform the development of more culturally inclusive AI systems.
 
-## 📊 Key Findings at a Glance
+## 📊 Key Findings
 
 * **All tested LLMs show significant cultural biases** compared to WVS empirical data.
 * **Poor Factor Structure Congruence:** LLM outputs failed to adequately reproduce the underlying cultural factor structure of the ground truth data.
