@@ -1,81 +1,52 @@
 # LLM Evaluation Based on World Values Survey Data: Quantifying Cultural Bias Across Model Architectures
 
-**Authors:** Ankit Singh Chauhan
+---
 
-## Abstract
+![GitHub last commit](https://img.shields.io/github/last-commit/anchauha/CultureEval)
+![License](https://img.shields.io/github/license/anchauha/CultureEval)
+![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)
 
-Artificial intelligence systems, particularly Large Language Models (LLMs), increasingly serve as global digital infrastructure. As their deployment expands worldwide, concerns about cultural bias have grown urgent, yet quantitative evaluation of such bias has remained elusive. This research develops a novel framework for evaluating cultural bias in LLMs using World Values Survey (WVS) data as an empirical benchmark. We extract five cultural dimensions from WVS Wave 7 data through factor analysis, then evaluate how well three different LLMs (Llama 2 13B, Gemma 3 12B, and Phi 4 14B) represent these dimensions across diverse demographic profiles. Our findings reveal significant cultural biases across all three models, though with important variations in both magnitude and pattern. Most notably, all models significantly underestimate Religious-Traditional Values for Non-Western profiles while slightly overestimating them for Western profiles, suggesting a consistent secular bias in representing Non-Western cultures. For other dimensions, the models show varying patterns, with Llama 2 exhibiting the strongest Western bias despite lower overall bias magnitude, Gemma 3 showing extreme biases in specific dimensions, and Phi 4 demonstrating higher overall bias magnitude but less Western orientation. These insights aim to inform more targeted approaches to developing culturally inclusive AI systems.
+## 🚀 Overview
 
-**Keywords:** cultural bias, large language models, exploratory factor analysis, world values survey, cross-cultural analysis
+This project introduces a novel quantitative framework for evaluating **cultural bias in Large Language Models (LLMs)** using empirical data from the **World Values Survey (WVS)**. As LLMs become integrated into global digital infrastructure, understanding and mitigating their inherent cultural biases is crucial for equitable AI development.
 
-## Research Context and Objectives
+Our research reveals significant and varied cultural biases across leading LLMs (Llama 2 13B, Gemma 3 12B, and Phi 4 14B), including a consistent underestimation of **Religious-Traditional Values** in Non-Western contexts. This repository provides the complete methodology, code, and data for reproducing our findings and extending this analysis.
 
-This research addresses the pressing need for robust, quantitative methods to evaluate cultural bias in Large Language Models (LLMs). As LLMs become more integrated into global information ecosystems, understanding their cultural alignment is crucial for equitable AI development.
+## ✨ Key Contributions
 
-### Key Research Questions
+* **Novel Evaluation Framework:** A rigorous, quantitative method for assessing LLM cultural bias using real-world survey data.
+* **Empirically Derived Cultural Dimensions:** Extraction and validation of five distinct cultural dimensions from WVS Wave 7 data.
+* **Cross-Model Bias Quantification:** Detailed, dimension-specific cultural bias evaluation across multiple LLMs.
+* **Actionable Insights:** Identifies specific patterns of bias (e.g., secularizing bias in Non-Western profiles, Western-leaning tendencies) to inform the development of more culturally inclusive AI systems.
 
-This study seeks to answer the following core questions:
+## 📊 Key Findings at a Glance
 
-1.  What latent cultural dimensions can be extracted from the World Values Survey (WVS) Wave 7 data, and do these dimensions correspond to known cultural theories?
-2.  How well do the WVS-derived cultural dimensions align with existing cultural models or indicators (such as Hofstede's country indices or the Inglehart-Welzel map)?
-3.  To what extent do LLM-generated responses reflect the cultural value profiles of different demographic groups, and are certain cultural dimensions systematically over- or under-represented in LLM outputs?
-4.  How does the cultural alignment of LLM responses vary across different subsets of demographic groups, in particular between Western and Non-Western profiles?
-
-### Key Contributions
-
-This research contributes to the field in several ways:
-
-1.  **Methodological Framework:** We develop a novel quantitative framework for evaluating cultural bias in LLMs using empirical survey data, providing a more rigorous approach than existing qualitative or anecdotal assessments.
-2.  **Cultural Dimension Extraction:** We extract and validate five distinct cultural dimensions from WVS Wave 7 data, offering a contemporary, empirically-grounded alternative to established cultural frameworks.
-3.  **Cross-Model Bias Evaluation:** We provide a comprehensive, dimension-specific quantification of cultural bias across multiple LLMs (Llama 2 13B, Gemma 3 12B, and Phi 4 14B), identifying both consistent patterns and model-specific variations in bias.
-4.  **Practical Implications:** We discuss concrete implications for AI development, deployment, and governance, offering actionable insights for creating more culturally inclusive AI systems, including model-specific approaches based on observed bias patterns. Part of report (To be uploaded)
-
-## Methodology Overview
-
-The research employs a multi-stage pipeline to quantify cultural bias in LLMs:
-
-1.  **Data Source:** The primary data is the inverted World Values Survey (WVS) Wave 7 (2017-2022), covering 66 countries and 97,220 respondents.
-2.  **Data Preprocessing (`01_pre-processing.ipynb`):**
-    * Selection of 97 survey variables and 5 demographic variables.
-    * Thorough missing data analysis (overall and country-specific).
-3.  **Imputation (`02_imputation.ipynb`, `02_imputationalternate.ipynb`):**
-    * **Manual Imputation:** For systematic country-specific missing data (25 variables), values were imputed based on extensive literature review, comparative data analysis (e.g., previous WVS waves, regional barometers, Pew surveys), and cultural/political context assessment.
-    * **Advanced Iterative Imputation (MICE):** Remaining random missing values were handled using `sklearn`'s `IterativeImputer` within demographic groups (unique combinations of country, urban/rural status, sex, age, education). Custom estimators (Logistic Regression for binary, Ordered Logit Regression (`mord.LogisticIT`) for ordinal variables) were used to respect variable types.
-4.  **Data Aggregation (`03_aggregation.ipynb`):**
-    * Individual-level imputed WVS data was aggregated to 2,250 unique demographic profiles.
-    * The primary aggregation method used the **mode** for each survey question within each demographic group to create the ground truth dataset (T1). An alternative median-based aggregation was also performed.
-5.  **Exploratory Factor Analysis (EFA) & Dimension Reduction (`04_EFA.ipynb`, `05_DimenReduc.ipynb`):**
-    * EFA was performed on the aggregated ground truth data (T1) to extract latent cultural dimensions.
-    * After comparing various EFA models, Principal Components Analysis (PCA) with Promax rotation and 5 factors was selected. This model explained 35.22% of the variance.
-    * Diagnostics included Bartlett’s test of sphericity ($\chi^2=115635.21, p<0.001$) and Kaiser-Meyer-Olkin (KMO) measure (overall KMO=0.943).
-    * The five extracted dimensions are: Religious-Traditional Values, Institutional Trust, Democratic Values, Social Conservatism, and Openness to Diversity.
-6.  **LLM Response Generation:**
-    * Three LLMs were evaluated: Llama 2 (13B-chat-fp16), Gemma 3 (12B-it-fp16), and Phi 4 (14B-fp16), accessed via the Ollama API.
-    * Prompts were designed to provide demographic context (country, urban/rural, sex, age, education) and the survey question, asking the LLM to predict the most likely response code.
-    * LLM-generated responses formed the T2 datasets for each model.
-7.  **Cultural Bias Evaluation & Comparison (`06_EFA_Comparison.ipynb`):**
-    * **Factor Structure Comparison:** Tucker’s Congruence Coefficient was used to compare factor loading matrices of T1 and T2 for each LLM.
-    * **Factor Score Comparison:** T2 data was projected onto the T1 factor structure. Paired t-tests and Cohen’s d were calculated to assess differences in factor scores.
-    * **Group Difference Analysis:** Differences were analyzed between Western and Non-Western country profiles.
-    * **Overall Cultural Bias Index (OCBI)** and **Western Bias Index (WBI)** were calculated.
-8.  **Visualizations (`07_visualizations.ipynb`):**
-    * Heatmaps, radar charts, and other plots were generated using `pandas` and `seaborn` to visualize findings.
-
-## Key Findings
-
-This research uncovered several critical insights into cultural bias in LLMs:
-
-* **Significant Cultural Misalignment:** All three evaluated LLMs (Llama 2 13B, Gemma 3 12B, Phi 4 14B) exhibit substantial cultural biases when compared to empirical WVS data.
-* **Poor Factor Structure Congruence:** LLM-generated data failed to adequately reproduce the underlying cultural factor structure of the ground truth data (Tucker's Congruence Coefficients were below the acceptable threshold of 0.85).
-* **Underrepresentation of Religious-Traditional Values:** A consistent pattern across all models was the significant underestimation of Religious-Traditional Values, particularly for Non-Western demographic profiles (Cohen's d from -0.89 to -1.17), suggesting a secularizing bias.
+* **All tested LLMs show significant cultural biases** compared to WVS empirical data.
+* **Poor Factor Structure Congruence:** LLM outputs failed to adequately reproduce the underlying cultural factor structure of the ground truth data.
+* **Consistent Underestimation of Religious-Traditional Values:** Particularly pronounced for Non-Western demographic profiles (Cohen's d from -0.89 to -1.17), suggesting a secularizing bias.
 * **Model-Specific Bias Patterns:**
     * **Llama 2 13B:** Showed the strongest Western Bias (WBI=0.789) but a lower Overall Cultural Bias Index (OCBI=0.64).
     * **Gemma 3 12B:** Exhibited extreme biases in specific dimensions (e.g., overestimating Openness to Diversity, OCBI=0.66, WBI=0.724).
     * **Phi 4 14B:** Demonstrated the highest overall bias magnitude (OCBI=0.78) but a less pronounced Western orientation (WBI=0.512).
-* **Cultural Flattening:** LLMs tend to homogenize cultural differences, often pushing responses towards a moderate, Western-influenced perspective rather than accurately reflecting diverse cultural viewpoints.
-* **Differential Regional Bias:** Models often showed contrasting directional biases for Western versus Non-Western profiles, for instance, underestimating certain values for Non-Western groups while overestimating them for Western groups.
+* **Cultural Flattening:** LLMs tend to homogenize cultural differences, often pushing responses towards a moderate, Western-influenced perspective.
 
-## Repository Structure
+## 🛠️ Methodology Overview
+
+Our multi-stage pipeline processes WVS data, extracts cultural dimensions, generates LLM responses, and quantifies cultural bias:
+
+1.  **Data Source:** World Values Survey (WVS) Wave 7 (2017-2022) data.
+2.  **Preprocessing & Imputation:** Comprehensive data cleaning, variable selection, and advanced iterative imputation (MICE) for missing data.
+3.  **Data Aggregation:** Individual-level imputed WVS data aggregated to 2,250 unique demographic profiles using the mode for ground truth.
+4.  **Cultural Dimension Extraction (EFA):** Exploratory Factor Analysis (PCA with Promax rotation, 5 factors) performed on the aggregated data to identify five latent cultural dimensions:
+    * Religious-Traditional Values
+    * Institutional Trust
+    * Democratic Values
+    * Social Conservatism
+    * Openness to Diversity
+5.  **LLM Response Generation:** Llama 2 (13B-chat-fp16), Gemma 3 (12B-it-fp16), and Phi 4 (14B-fp16) predict responses for the same demographic profiles.
+6.  **Cultural Bias Evaluation:** Comparison of LLM-generated data with WVS ground truth using statistical techniques like Tucker’s Congruence Coefficient, Cohen’s d, and custom bias indices (Overall Cultural Bias Index - OCBI, and Western Bias Index - WBI).
+
+## 📂 Repository Structure
 
 The repository is organized as follows:
 
