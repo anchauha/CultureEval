@@ -3,7 +3,6 @@
 ---
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/anchauha/CultureEval)
-![License](https://img.shields.io/github/license/anchauha/CultureEval)
 ![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)
 
 ## 🚀 Overview
@@ -130,3 +129,14 @@ This directory contains the results of the EFA and comparative analyses:
     * `scores_<model_name>_projected_on_T1.csv`: Factor scores for each LLM's data when projected onto the T1 factor structure.
     * `ttest_T1_vs_<model_name>_projected.csv`: Results of paired t-tests comparing T1 factor scores with LLM-projected scores.
 
+## 🤝 Contributing
+
+Contributions are welcome! If you find a bug, have suggestions for improvements, or want to add new features, please open an issue or submit a pull request.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 📧 Contact
+
+Ankit Singh Chauhan - [ankichau.1718@gmail.com](mailto:ankichau.1718@gmail.com)
